@@ -1,0 +1,83 @@
+Evolució preu electricitat a Europa
+========================================================
+
+Com cada any puja el preu de la llum, he pensat comparar el que paguem per l'electricitat respecte els nostres veins europeus i mirar l'evolució dels darrers anys.
+
+Les dades les agafo d'Eurostat, les importo amb el package SmarterPoland i faré l'evolució amb ggplot2.
+
+## Què és [Eurostat][]?
+
+Agafant la definició de la wikipedia directament:
+
+L'Eurostat (en anglès: Statistical Office of the European Communities) és l'oficina estadística de la Comissió Europea, que produeix dades sobre la Unió Europea (UE) i promou l'harmonització dels mètodes estadístics dels estats membres.
+
+[Eurostat]: http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/
+
+## Package SmarterPoland
+
+Amb l'R moltes vegades val la pena provar sort a google i veure si algú ja ha fet el que intentes realitzar. En el meu cas, importar dades d'Eurostat a l'R. Amb un nom poc intuitiu hi ha el package SmarterPoland que ens fa la feina d'importar les taules d'Eurostat a l'R a la perfecció. 
+
+El package té molt poques funcions, i si tens el codi de la taula d'EuroStat amb _getEurostatRCV_ te la importa a l'R. Pots fer una ullada a tot el que es pot agafar d'Eurostat amb _getEurostatTOC_.
+
+```{r}                 
+library("SmarterPoland")
+
+tmp <- getEurostatTOC()
+head(tmp)
+dim(tmp)
+table(tmp$type)
+```
+
+Com que hi ha tantes taules i datasets, per trobar el preu de l'electricitat, he buscat a Eurostat primer a las secció d'energia mirant les [taules principals][] i escollint [Electricity prices for household consumers][] que té codi ten00115. Ho importem a l'R de la següent forma:
+
+[taules principals]: http://epp.eurostat.ec.europa.eu/portal/page/portal/energy/data/main_tables
+[Electricity prices for household consumers]: http://epp.eurostat.ec.europa.eu/portal/page/portal/product_details/dataset?p_product_code=TEN00115
+
+
+```{r}                
+preu_elec <- getEurostatRCV("ten00115")
+head(preu_elec)
+summary(preu_elec)
+```
+
+## Evolució preu electricitat amb ggplot2
+
+Per fer gràfiques amb l'R, és molt recomanable la llibreria ggplot2. Tot i que inicialment pot ser una mica complicada, un cop ho tens per la ma resulta molt pràctica. Si us decidiu a provar-la, us afegeixo un [taller de ggplot2][] que vam fer a les IV Jornadas de usuarios de R.
+
+[taller de ggplot2]: http://rpubs.com/Lluis_Ramon/Prestantacion_ggplot2_ggmap
+
+
+```{r} 
+library(ggplot2)
+
+# Creem una variable pais que ens diferenciara Espanya, la mitjana UE27 i la resta de paisos.
+preu_elec$Pais = ifelse(preu_elec$geo == "ES", "Espanya", "Paisos UE")
+preu_elec$Pais = ifelse(preu_elec$geo == "EU27", "EU 27", preu_elec$Pais)
+
+# Cada linia blava representa un pais amb dades a EuroStat
+qplot(time, value, data = preu_elec, group = geo, geom = "line", colour = Pais, size = Pais) + scale_size_manual(values=c(2,2,0.4))
+```
+
+Mirem quins són els 5 paisos amb l'electricitat més elevada. 
+
+```{r}
+# L'any 2013 està amb un espai al final.
+cond <- preu_elec$time == "2013 "
+preu_elec_13 <- preu_elec[cond, ]
+
+head(preu_elec_13[order(preu_elec_13$value, decreasing = TRUE), ], 5)
+
+# Xipre, Irlanda, Espanya, Regne Unit i Malta
+
+```
+
+## Conclusions
+
+* A l'any 2013 tenim medalla de bronze al preu de l'electricitat a Europa. Només ens supera Xipre i Irlanda.
+* El preu de l'electricitat a Espanya s'ha incrementat un 74,5% des de l'any 2007. Mentre que la mitjana del preu a la UE27 s'ha incrementat un 17,3% des de l'any 2007.
+* Quan l'economia espanyola anava bé pagavem menys que la mitjana europea per l'electricitat, llavors el preu estava estabilitzat amb pocs increments d'un any a un altre. En plena crisi el preu es dispara any rere any i paguem molt més que la mitjana europea.
+* A sobre i per empitjorar encara més les coses, a les dades d'Eurostat no es contempla el [deficit tarifari][].
+
+[deficit tarifari]: http://es.wikipedia.org/wiki/Mercado_el%C3%A9ctrico_de_Espa%C3%B1a#D.C3.A9ficit_tarifario
+
+PS: Quan escrivia el post hi havia problemes a l'obtenir les dades perquè el servidor d'eurostat estava caigut. Suposo que no és habitual però per si de cas mireu que funcioni :)
