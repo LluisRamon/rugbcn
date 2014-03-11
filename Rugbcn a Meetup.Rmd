@@ -1,0 +1,45 @@
+Contents amb el funcionament a Meetup
+========================================================
+
+Després de la primera reunió a Meetup i les diferents incorporacions de membres d'R, considerem molt positiu el canvi a meetup on ja hi ha més de 50 usuaris d'R. Si encara no us heu apuntat, és molt fàcil i ho podeu fer al següent [enllaç][].
+
+[enllaç]: http://www.meetup.com/RugBcn-Barcelona-R-users-group/
+
+# Pròxima reunió Introducció a l'R
+
+La setmana que ve, el dimecres 5, l'Aleix farà una introducció a R amb l'objectiu d'aprendre les comades bàsiques de R i que després es pugui provar a casa. Donar una visió general de les possibilitats i aplicacions amb R. No cal cap coneixement previ (ni tan sols estadística).
+
+Més informació per apuntar-se i lloc al [Meetup de l'event][]
+
+[Meetup de l'event]: http://www.meetup.com/RugBcn-Barcelona-R-users-group/events/165436662/
+
+# Primera reunió amb èxit
+
+Gràcies al bon funcionament d'Itnig tot va anar molt bé i hi havia bastanta gent nova. A continuació afegeixo els enllaços de les presentacions:
+
+## Web scrapping amb Relenium
+
+L'Aleix va realitzar una petita introducció als conceptes bàsics per entendre web scrapping on podeu veure la presentació al següent enllaç [Web Scrapping][].
+
+[Web Scrapping]: http://www.aleixruizdevilla.net/seminars/Relenium/introduction/
+
+En una segona presentació va mostrar com es podria realitzar utilitzant el package relenium, que està disponible al següent enllaç [Relenium][].
+
+[Relenium]: http://www.aleixruizdevilla.net/seminars/Relenium/relenium%20example/
+
+## Dates and Times
+
+La presentació la vaig fer amb RStudio R Presentation i està disponible a rpubs al següent enllaç [Dates and Date-Times Classes][]. La veritat és que és molt fàcil de funcionar i queda bastant bé tot i que penso que el resultat que obtens és un pel rígid.
+
+Per a la presentació vaig crear un repositori a github [Dates-and-Date-Times-in-R][] on hi ha l'script per provar totes les funcions i les dades d'exemple. També està el codi per generar la presentació amb R Presentation.
+
+[Dates-and-Date-Times-in-R]: https://github.com/LluisRamon/Dates-and-Date-Times-in-R
+[Dates and Date-Times Classes]: http://rpubs.com/Lluis_Ramon/Easy_Date_Times_R
+
+# Properes reunions
+
+Per les properes reunions hem pensat obrir a Meetup reunions sense data que els diferents R-users considerin d'interès. Quan hi hagi un cert quòrum disposats a parlar-ne o assistir i ponents per explicar les temàtiques d'interès fixarem una data.
+
+De moment he obert una d'[Introducció a mapes amb R][], on el format o el que es vulgui explicar està obert a discussió.
+
+[Introducció a mapes amb R]: http://www.meetup.com/RugBcn-Barcelona-R-users-group/events/168499472/
