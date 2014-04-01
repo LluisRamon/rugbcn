@@ -1,0 +1,17 @@
+R Insurance 2014 amb ponència de Montserrat Guillén
+========================================================
+
+El segon congrés sobre R i assegurances se celebrarà el dilluns 14 juliol 2014 al Cass Business School de Londres, Regne Unit. 
+
+Tal i com expliquen a la [pàgina web del congrés][] el públic objectiu inclou tant acadèmics i professionals que estan actius o interessats en les aplicacions de R en Assegurances. 
+
+El congrés és d'un dia i es centrarà en les aplicacions de les assegurances i de la ciència actuarial que utilitzen l'R. Els temes poden incloure estadística actuarial, el models de capital, preus, reservant, reassegurances i els fenòmens extrems, l'assignació de carteres, eines avançades de risc, computació d'alt rendiment, econometria i més. Tots els temes seran discutits en el context de la utilització d'R com una eina primordial per a la gestió de riscos d'assegurances, anàlisi i models.
+
+Una de les ponencies principals és la [Montserrat Guillén][] Direcotora del [Riskcenter][], the Research Group on Risk in Insurance and Finance, de la Universitat de Barcelona.
+
+Si esteu interessats en l'R i assegurances pot ser un bon lloc per aprendre com s'integren i gent que ho està fent. 
+
+
+[Montserrat Guillén]: http://www.ub.edu/riskcenter/mge.html
+[Riskcenter]: http://www.ub.edu/riskcenter/
+[pàgina web del congrés]: http://www.cass.city.ac.uk/news-and-events/conferences/r-in-insurance-2014
