@@ -1,0 +1,45 @@
+---
+title: "Introduccio a mapes amb R"
+author: "Lluis Ramon"
+date: "7 de abril de 2014"
+output: html_document
+---
+
+Hola R-users, 
+
+A la [darrera reunió][] es va mostrar interès per una reunió específica de mapes amb R. 
+
+Tot i que potser no té tota la potència d'un GIS es poden obtenir resultats molt espectaculars. 
+
+Com a les darreres reunions, ho hem organitzat des del [meetup dels usuaris d'R de Barcelona][] que si encara no sou membres us convido a afegir-vos, ja som 72 R-users!!!
+
+Per qui vulgui assistir a la reunió siusplau [apunteu-vos][] al meetup ja que en funció del nombre d'assistents anirem a una sala o una altra.
+
+### Presentacions:
+
+* Introducció a mapes amb R per Lluís Ramon 
+* Introducció al package [rasterVis][] per Agustin Lobo
+
+### Lloc i data:
+
+Ens reunirem el 22 d'abril a les 18:30 a l'[Institut de Ciencies de la Terra "Jaume Almera" CSIC][], ([link mapa][]), just davant del bar de Biologia de la UB.
+
+### Informació relacionada
+
+Per qui no pugui esperar o vulgui veure mapes que es poden fer amb R, afegeixo dues presentacions sobre el tema que ja vam fer al grup d'usuaris d'R de Barcelona:
+
+* [Mapes amb R][]
+* [Introducción a ggplot2 y ggmap][] 
+* [Applied Spatial Data Analysis with R][] (Llibre de referència)
+* [CRAN Task View: Analysis of Spatial Data][]
+
+[CRAN Task View: Analysis of Spatial Data]: http://cran.r-project.org/web/views/Spatial.html
+[Applied Spatial Data Analysis with R]: http://www.amazon.com/Applied-Spatial-Data-Analysis-Use/dp/1461476178
+[darrera reunió]: http://www.meetup.com/RugBcn-Barcelona-R-users-group/events/165436662/
+[Mapes amb R]: http://rpubs.com/Lluis_Ramon/Presentacio_mapes_amb_R
+[Introducción a ggplot2 y ggmap]: http://rpubs.com/Lluis_Ramon/Prestantacion_ggplot2_ggmap
+[link mapa]: https://www.google.es/maps/place/Instituto+de+Ciencias+de+la+Tierra+Jaume+Almera+ICTJA-CSIC/@41.384754,2.119084,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0xd36639b74a6aced2
+[Institut de Ciencies de la Terra "Jaume Almera" CSIC]: http://www.ija.csic.es/index.php?lang=ca
+[rasterVis]: http://oscarperpinan.github.io/rastervis/
+[meetup dels usuaris d'R de Barcelona]: http://www.meetup.com/RugBcn-Barcelona-R-users-group/
+[apunteu-vos]: http://www.meetup.com/RugBcn-Barcelona-R-users-group/events/168499472/
