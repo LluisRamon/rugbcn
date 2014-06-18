@@ -1,0 +1,24 @@
+---
+title: "VI Jornadas de Usuarios de R"
+author: "Lluís Ramon"
+date: "18 de juny de 2014"
+output: html_document
+---
+
+Ja fa dies que han anunciat les VI Jornadas de usuarios de R que se celebraran a Santiago de Compostela el 23 i 24 d'octubre de 2014. Fins ara no he pogut publicar-ho.
+
+Com en les darreres jornades hi ha la modalitat de presentació oral (15 min.), presentació breu (5 min.) i tallers (2h).
+
+El preu és gratuït. També hi ha l'opció de l'assistència a distància via streaming. (Suposo que el Xavi de Pedro deu estar preparant això).
+
+Les dates importants són:
+
+* 31/07: data límit d'enviament de treballs per a la seva avaluació
+* 31/07: fi d'acceptació de proposta de tallers
+* 15/09: notificació d'acceptació als treballs i dels tallers
+* 23-24/10: celebració de les jornades
+
+Per més detalls consultar la [pàgina oficial][].
+
+[pàgina oficial]: http://r-es.org/VI+Jornadas
+
