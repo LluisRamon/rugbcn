@@ -1,0 +1,24 @@
+Ray DiGiacomo, President of The Orange County R User Group (OC-RUG) in Southern California, contacted us to spread the word about the free webinar they will host on the new ["RoughSets"][] package.
+
+**RoughSets package**
+
+This free webinar will provide an introduction to the ["RoughSets"][] package, which provides comprehensive implementations of rough set theory (RST) and fuzzy rough set theory (FRST).
+
+["RoughSets"]: http://cran.r-project.org/web/packages/RoughSets/index.html
+
+**Webinar Format:** 
+
+* Introduction to the RoughSets R package 
+* Live demonstration 
+* Question and Answer period 
+
+**Webinar Date/Time:**
+June 24, 2014 at 10 am California time
+
+**Speaker:**
+Lala Septem Riza, RoughSets package co-author 
+
+**Webinar Registration Page**
+https://www3.gotomeeting.com/register/618086814
+  
+Please note that in addition to attending from your laptop or desktop computer, you can also attend from a Wi-Fi connected iPhone, iPad, Android phone or Android tablet by installing the GoToMeeting App. 
