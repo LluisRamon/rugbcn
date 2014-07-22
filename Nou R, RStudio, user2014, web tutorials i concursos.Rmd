@@ -1,0 +1,77 @@
+---
+title: "Nou R, RStudio, user2014, web tutorials i concursos"
+author: "Lluis Ramon"
+date: "22 de julio de 2014"
+output: html_document
+---
+
+Ja s'acosta l'estiu i molts ja estem preparant les vacances d'estiu. Si teniu algun moment ociós, amb ganes d'actualitzar o jugar amb les darreres novetats de l'R, aquí us passo algunes de les que jo tinc a la meva llista:
+
+## Nova versió d'R
+
+El 10 de juliol de 2014 han anunciat la nova versió d'R, la 3.1.1 amb nom en clau _**Sock it to Me**_ va veure la llum. Podeu llegir els canvis [aquí][].
+
+[aquí]: http://cran.r-project.org/
+
+## Nova versió d'RStudio
+
+Fa gairebé un mes que els desenvolupadors de l'RStudio IDE van anunciar una nova versió del seu entorn de programació amb R, la versió v0.98.932.
+
+Aquesta versió fa petites millores i correccions en molts aspectes, però on realment puja encara més el nivell és amb la integració amb la evolució de l'R Markdown, que permet crear de forma fàcil words, pdf, presentacions, etc.
+
+Podeu baixar la nova versió de l'RStudio al següent [enllaç][] i veure les [novetats][].
+
+Val al pena donar un cop d'ull a [rmarkdown][], que és molt interessant i que tard o d'hora haurem de parlar a una reunió presencial.
+
+[novetats]: http://www.rstudio.com/products/rstudio/release-notes/
+[enllaç]: http://www.rstudio.com/products/rstudio/
+[rmarkdown]: http://rmarkdown.rstudio.com/
+
+## user2014 i les seves xerrades i slides
+
+La conferència internacional d'R (useR!) es va celebrar de 1-7-2014 al 3-7-2014 a Los Angeles.
+
+Allí es van presentar moltes coses interessants. Moltes presentacions s'han compartit per blocs i Twitter però el més fàcil és buscar-les a la [web del congrés][]. Allí hi ha els abstarcts de les xerrades i moltes de les presentacions que es van dur a terme i el codi que van usar. Esperem que vagin afegint les que encara falten. 
+
+[web del congrés]: http://user2014.stat.ucla.edu/#Tuesday
+
+## RStudio web tutorials
+
+També l'equip d'RStudio presenta [Essential Tools for Data Science with R][]. És un conjunt de webinar amb els diferents packages que han desenvolupat que faran al llarg de l'estiu.
+
+Molts dels tutorials o presentacions que van realitzar al useR! sembla que en faran una versió online perquè els que no vam poder assistir també en puguem gaudir. A continuació les llisto:
+
+* The Grammar and Graphics of Data Science (30-7-14)
+    * [dplyr][]: a grammar of data manipulation – Hadley Wickham
+    * [ggvis][]: Interactive graphics in R – Winston Chang
+
+* Reproducible Reporting (13-8-14)
+    * The Next Generation of R Markdown – Jeff Allen
+    * [Knitr][] Ninja – Yihui Xie
+    * Packrat – A Dependency Management System for R – J.J. Allaire & Kevin Ushey
+
+* Interactive Reporting (3-9-14)
+    * Embedding Shiny Apps in R Markdown documents – Garrett Grolemund
+    * [Shiny][]: R made interactive – Joe Cheng
+
+[Essential Tools for Data Science with R]: http://blog.rstudio.org/2014/07/16/rstudio-presents-essential-tools-for-data-science-with-r/
+
+[dplyr]: http://cran.r-project.org/web/packages/dplyr/index.html
+[Shiny]: http://shiny.rstudio.com/
+[ggvis]: http://ggvis.rstudio.com/
+[Knitr]: http://yihui.name/knitr/
+
+# Concursos
+
+Finalment, si necessiteu un concurs per motivar-vos una mica, n'hi ha un per finals de més i específic d'R per fer mapes dels grups d'usuaris d'R a nivell mundial, el [Prizes for Best R User Groups Plotting Code][].
+
+[Prizes for Best R User Groups Plotting Code]: http://blog.revolutionanalytics.com/2014/06/contest-prizes-for-best-r-user-groups-plot.html
+
+Un altre concurs és el [Official Rules for the F1® Connectivity Innovation Prize][] sobre dades de la formula 1, tot i que el primer challenge ja ha acabat el termini. Si us agrada la F1 caldrà que estigueu atents pels següents.
+[Official Rules for the F1® Connectivity Innovation Prize]: https://prize.tatacommunications.com/rules
+
+Si cap dels dos et motiven suficient sempre quedarà [Kaggle][] i la seva llista de propostes. 
+
+[Kaggle]: https://www.kaggle.com/
+
+Bones vacances a tots!!!
